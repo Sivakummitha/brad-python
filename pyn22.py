@@ -13,9 +13,9 @@ def is_symmetrical(s):
     first_half = s[:mid]
     second_half = s[mid:]
     return first_half == second_half
-string3 = "yoyo"
-string4 = "python"
-string5 = "racecar" 
+string3 = "siva"
+string4 = "charan"
+string5 = "reddy" 
 print(f"'{string3}' is symmetrical: {is_symmetrical(string3)}")
 print(f"'{string4}' is symmetrical: {is_symmetrical(string4)}")
 print(f"'{string5}' is symmetrical: {is_symmetrical(string5)}")
