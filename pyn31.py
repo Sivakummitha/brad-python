@@ -17,19 +17,19 @@ while True:
     if x > 5:
         break
 
-print("Break Example")
+print("Break")
 for i in range(1, 10):
     if i == 5:
         break
     print(i)
 
-print("Continue Example")
+print("Continue")
 for i in range(1, 8):
     if i == 4:
         continue
     print(i)
 
-print("Pass Example")
+print("Pass")
 for i in range(1, 6):
     if i == 3:
         pass
