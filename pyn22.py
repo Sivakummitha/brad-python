@@ -15,7 +15,7 @@ def is_symmetrical(s):
     return first_half == second_half
 string3 = "siva"
 string4 = "charan"
-string5 = "reddy" 
+string5 = "amaama" 
 print(f"'{string3}' is symmetrical: {is_symmetrical(string3)}")
 print(f"'{string4}' is symmetrical: {is_symmetrical(string4)}")
 print(f"'{string5}' is symmetrical: {is_symmetrical(string5)}")
