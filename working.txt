@@ -1,0 +1,5 @@
+<html>
+<a href="https://example.com">Example</a>
+<a href='page.html'>Local page</a>
+<a href="mailto:info@example.com">Mail</a>
+</html>
