@@ -1,0 +1,16 @@
+import pandas as pd
+from datetime import datetime, time, date
+dt_object_jan_15_2012 = datetime(2012, 1, 15)
+print(f"a) Datetime object for Jan 15 2012: {dt_object_jan_15_2012}")
+specific_datetime_9_20pm = datetime(2012, 1, 15, 21, 20)
+print(f"b) Specific date and time of 9:20 pm: {specific_datetime_9_20pm}")
+local_datetime = datetime.now()
+print(f"c) Local date and time: {local_datetime}")
+date_without_time = date(2023, 10, 26)
+print(f"d) A date without time: {date_without_time}")
+current_date = date.today()
+print(f"e) Current date: {current_date}")
+time_from_datetime = local_datetime.time()
+print(f"f) Time from a datetime: {time_from_datetime}")
+current_local_time = datetime.now().time()
+print(f"g) Current local time: {current_local_time}")
