@@ -1,0 +1,10 @@
+with open("mergedfile.py")as file:
+    data=file.read()
+num_of_char=len(data)
+num_of_words=len(data.split())
+num_of_spaces=data.count(" ")
+num_of_lines=data.count("\n")
+num_of_char=print(f"num of characters:{num_of_char}")
+num_of_words=print(f"num of words:{num_of_words}")
+num_of_spaces=print(f"num of spaces:{num_of_spaces}")
+num_of_words=print(f"num of lines:{num_of_lines}")
