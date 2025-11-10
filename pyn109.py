@@ -1,5 +1,6 @@
 import os
 import shutil
+import zipfile
 folder_path = "my_folder"
 output_zip = "my_folder_backup"
 if os.path.exists(folder_path) and os.path.isdir(folder_path):
