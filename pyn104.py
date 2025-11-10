@@ -1,0 +1,5 @@
+file=open("userdata.txt","a")
+data=input("enter data to append: ")
+file.write(data)
+file.close()
+print("file successfully created and appended")
