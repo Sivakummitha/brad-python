@@ -1,0 +1,22 @@
+import numpy as np
+from scipy import interpolate
+print("1D INTERPOLATION USING interp1d")
+x=np.linspace(0,10,10)
+y=np.sin(x)
+f_linear=interpolate.interp1d(x,y)
+f_cubic=interpolate.interp1d(x,y,kind='cubic')
+x_new=np.linspace(0,10,50)
+y_linear=f_linear(x_new)
+y_cubic=f_cubic(x_new)
+print("Original x:",x)
+print("Interpolated x:",x_new[:5])
+print("Linear values:",y_linear[:5])
+print("Cubic values:",y_cubic[:5])
+print("2D INTERPOLATION USING griddata")
+points=np.random.rand(10,2)
+values=np.sin(points[:,0])+np.cos(points[:,1])
+grid_x,grid_y=np.mgrid[0:1:5j,0:1:5j]
+grid_z=interpolate.griddata(points,values,(grid_x,grid_y),method='cubic')
+print("Points:\n",points)
+print("Values:\n",values)
+print("Interpolated grid:\n",grid_z)
