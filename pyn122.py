@@ -1,3 +1,4 @@
+# I reffered from documentation and chatgpt to know all the functions used in scipy and i proceeded the program
 from scipy import special
 x = 5
 print("Gamma Function of 5:", special.gamma(x))
