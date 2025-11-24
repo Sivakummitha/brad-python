@@ -1,6 +1,9 @@
-list=[1,2,3,4,5,6,7,8,9,10]
-sum=0
-for i in list:
-    if i%2==0:
-        sum+=i
-print(sum)
+n=int(input("entern:"))
+a,b=0,1
+count=0
+for i in range(n):
+    if n<=1:
+        ("print not exist")
+    else:
+        a,b=b,a+b
+        count+=i
